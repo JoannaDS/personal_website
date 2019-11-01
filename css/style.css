@@ -76,6 +76,11 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .namepadding {
+    font-size: 120%;
+  }
+}
 .member {
   color: #7b8fa1;
   padding: 20px;
