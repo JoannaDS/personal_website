@@ -3,8 +3,8 @@ body {
   height: 100%;
 }
 .paralax {
-  background-image: url(../img/mountain.jpg);
-  height: 50%;
+  background-image: url(../img/beach.jpg);
+  height: 100%;
 }
 .bg {
   background-attachment: fixed;
