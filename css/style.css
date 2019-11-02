@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 .paralax {
-  background-image: url(../img/beach.jpg);
+  background-image: url(../img/beach2.jpg);
   height: 100%;
 }
 .bg {
@@ -150,11 +150,11 @@ body {
 
 .btn-my {
   color: white;
-  background-color: rgb(109, 107, 107);
+  background-color: #2bbbad;
 }
 .btn-my:hover {
   color: white;
-  background-color: #2bbbad;
+  background-color: grey;
 }
 .lead > .fa {
   color: #2bbbad;
