@@ -46,14 +46,13 @@ body {
   width: 17em;
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 120%
+  font-size: 120%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
   color: white;
 }
-
 
 .member {
   color: #7b8fa1;
@@ -74,7 +73,7 @@ body {
   color: white;
   margin: 10px;
 }
-.main-icons .fa:hover {
+.fa:hover {
   color: #2bbbad;
 }
 
@@ -138,8 +137,8 @@ body {
   margin: 10px;
 }
 
-.contact {
-  margin-top: 100px;
+.contact_box {
+  margin-top: 50px;
 }
 .contact p,
 .contact h2 {
@@ -156,8 +155,8 @@ footer {
 .arr {
   margin-top: 10vh;
 }
-.colorrow {
-  padding: 30px;
+.contact_row {
+  padding: 20px;
 }
 .you_know {
   margin-bottom: 10px;
@@ -196,17 +195,29 @@ footer {
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: #2bbbad;
   }
   to {
     border-right-color: transparent;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1025px) {
   .namepadding {
-    font-size:180%
+    font-size: 180%;
   }
   .box {
     padding: 50px;
   }
+  .box2 {
+    padding: 20px;
+  }
+  .contact_box {
+    margin-top: 60px;
+  }
+}
+.top-arrow {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  display: none;
 }
